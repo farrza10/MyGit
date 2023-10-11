@@ -27,3 +27,23 @@ print(result2)
 4. step over the next line with 'n'
 5. then you can cgeck with 'l' to see if you moved to a line down or use 'll' to see the whole functions, while 'l' gives the current one
 
+
+#####Iterating through loop and trace the steps########
+
+def function(num1):
+
+    import pdb; pdb.set_trace()
+
+    for i in range(num1):
+        print(i)
+
+number = 10
+function(number)
+
+1. run python debugging.py
+2. press 'next', it will show the step once you press the next each time on terminal
+
+
+
+
+
