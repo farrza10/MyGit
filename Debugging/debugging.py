@@ -31,12 +31,9 @@ print(result2)
 #####Iterating through loop and trace the steps########
 
 def function(num1):
-
     import pdb; pdb.set_trace()
-
     for i in range(num1):
         print(i)
-
 number = 10
 function(number)
 
