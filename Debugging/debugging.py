@@ -25,5 +25,5 @@ print(result2)
    2.2 using p result2 -> does not give since pdb.set_trace is before result2, adding after result2 for the sake of tracing
 3. check where you are in set_trace (shows all the codes) with 'l'
 4. step over the next line with 'n'
-5. then you can cgeck with 'l' to see if you moved to a line down
+5. then you can cgeck with 'l' to see if you moved to a line down or use 'll' to see the whole functions, while 'l' gives the current one
 
