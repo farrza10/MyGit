@@ -49,6 +49,9 @@ file.readlines() -> all lines of code
 file.seek(0) -> go to the first code of line 
 file.seek(1) -> starting from the first character
 
+file.close() -> close the file and we can't make change to file
+file.closed -> True/False if files is closed or not
+
 
 
 
