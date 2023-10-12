@@ -42,5 +42,16 @@ function(number)
 
 
 
+###############Reading files#######################
+file = open("myfile.txt") - by default is r-mode
+fiel.readline() -> read lime one by one
+file.readlines() -> all lines of code
+file.seek(0) -> go to the first code of line 
+file.seek(1) -> starting from the first character
+
+
+
+
+
 
 
